@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr" data-composition-variables='[{"id":"hook1","type":"string","label":"Accroche 1 (0-2,6 s)","default":"L’AVENT COMMENCE"},{"id":"hook2","type":"string","label":"Accroche 2 (2,6-4,8 s)","default":"PRÉPARE TON CŒUR"},{"id":"watermark","type":"string","label":"Filigrane","default":"HAVRE DE FOI"}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#1a1208; }
+      #root { position:relative; width:1080px; height:1920px; overflow:hidden; font-family:"Montserrat",sans-serif; }
+      .bg { position:absolute; left:0; top:0; width:1080px; height:1920px; object-fit:cover; }
+      #scrim { position:absolute; inset:0; background:linear-gradient(to bottom,rgba(0,0,0,.3) 0%,rgba(0,0,0,.12) 22%,rgba(0,0,0,.4) 40%,rgba(0,0,0,.5) 55%,rgba(0,0,0,.28) 75%,rgba(0,0,0,.3) 100%); }
+      #logo { position:absolute; left:40px; top:70px; width:170px; height:170px; object-fit:contain; }
+      #wm { position:absolute; left:0; right:0; top:1370px; text-align:center; font-weight:600; font-size:64px; letter-spacing:.08em; color:rgba(255,255,255,.6); text-shadow:0 2px 12px rgba(0,0,0,.5); }
+      .hook { position:absolute; left:120px; width:768px; top:300px; text-align:center; font-weight:900; font-size:92px; line-height:1.1; color:#fff; text-shadow:0 4px 26px rgba(0,0,0,.65); }
+      #hook2 { color:#F6D58E; opacity:0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="86" data-width="1080" data-height="1920">
+      <video id="b1" class="clip bg" src="assets/p01_44562.mp4" style="object-position:50% 55%" muted playsinline data-start="0.00" data-media-start="0" data-duration="5.1" data-track-index="0"></video>
+      <video id="b2" class="clip bg" src="assets/p02_18111.mp4" style="object-position:50% 50%" muted playsinline data-start="4.85" data-media-start="0" data-duration="2.35" data-track-index="0"></video>
+      <video id="b3" class="clip bg" src="assets/p03_19007.mp4" style="object-position:50% 50%" muted playsinline data-start="6.95" data-media-start="0" data-duration="2.65" data-track-index="0"></video>
+      <video id="b4" class="clip bg" src="assets/p04_3352.mp4" style="object-position:50% 50%" muted playsinline data-start="9.35" data-media-start="0" data-duration="4.85" data-track-index="0"></video>
+      <video id="b5" class="clip bg" src="assets/p05_3317.mp4" style="object-position:30% 50%" muted playsinline data-start="13.95" data-media-start="0" data-duration="2.75" data-track-index="0"></video>
+      <video id="b6" class="clip bg" src="assets/p06_3350.mp4" style="object-position:50% 50%" muted playsinline data-start="16.45" data-media-start="0" data-duration="3.25" data-track-index="0"></video>
+      <video id="b7" class="clip bg" src="assets/p07_4695.mp4" style="object-position:50% 50%" muted playsinline data-start="19.45" data-media-start="0" data-duration="5.85" data-track-index="0"></video>
+      <video id="b8" class="clip bg" src="assets/p08_25106.mp4" style="object-position:50% 50%" muted playsinline data-start="25.05" data-media-start="0" data-duration="4.85" data-track-index="0"></video>
+      <video id="b9" class="clip bg" src="assets/p09_44579.mp4" style="object-position:60% 50%" muted playsinline data-start="29.65" data-media-start="0" data-duration="3.35" data-track-index="0"></video>
+      <video id="b10" class="clip bg" src="assets/p10_2707.mp4" style="object-position:50% 50%" muted playsinline data-start="32.75" data-media-start="0" data-duration="3.25" data-track-index="0"></video>
+      <video id="b11" class="clip bg" src="assets/p11_6925.mp4" style="object-position:50% 50%" muted playsinline data-start="35.75" data-media-start="0" data-duration="3.05" data-track-index="0"></video>
+      <video id="b12" class="clip bg" src="assets/p12_17426.mp4" style="object-position:50% 50%" muted playsinline data-start="38.55" data-media-start="0" data-duration="3.25" data-track-index="0"></video>
+      <video id="b13" class="clip bg" src="assets/p13_29425.mp4" style="object-position:50% 50%" muted playsinline data-start="41.55" data-media-start="0" data-duration="4.45" data-track-index="0"></video>
+      <video id="b14" class="clip bg" src="assets/p14_24115.mp4" style="object-position:75% 50%" muted playsinline data-start="45.75" data-media-start="0" data-duration="3.45" data-track-index="0"></video>
+      <video id="b15" class="clip bg" src="assets/p15_2709.mp4" style="object-position:60% 50%" muted playsinline data-start="48.95" data-media-start="0" data-duration="4.85" data-track-index="0"></video>
+      <video id="b16" class="clip bg" src="assets/p16_3311.mp4" style="object-position:50% 50%" muted playsinline data-start="53.55" data-media-start="0" data-duration="3.65" data-track-index="0"></video>
+      <video id="b17" class="clip bg" src="assets/p17_35040.mp4" style="object-position:45% 50%" muted playsinline data-start="56.95" data-media-start="0" data-duration="3.35" data-track-index="0"></video>
+      <video id="b18" class="clip bg" src="assets/p18_17426.mp4" style="object-position:50% 50%" muted playsinline data-start="60.05" data-media-start="0" data-duration="3.35" data-track-index="0"></video>
+      <video id="b19" class="clip bg" src="assets/p19_44562.mp4" style="object-position:50% 55%" muted playsinline data-start="63.15" data-media-start="0" data-duration="3.05" data-track-index="0"></video>
+      <video id="b20" class="clip bg" src="assets/p20_4148.mp4" style="object-position:50% 50%" muted playsinline data-start="65.95" data-media-start="0" data-duration="5.55" data-track-index="0"></video>
+      <video id="b21" class="clip bg" src="assets/p21_18111.mp4" style="object-position:50% 50%" muted playsinline data-start="71.25" data-media-start="0" data-duration="3.95" data-track-index="0"></video>
+      <video id="b22" class="clip bg" src="assets/p22_21168.mp4" style="object-position:50% 50%" muted playsinline data-start="74.95" data-media-start="0" data-duration="11.05" data-track-index="0"></video>
+      <div id="scrim" class="clip" data-start="0" data-duration="86" data-track-index="1"></div>
+
+      <div id="hook1" class="clip hook" data-start="0" data-duration="2.9" data-track-index="2"><span data-var-text="hook1">L’AVENT COMMENCE</span></div>
+      <div id="hook2" class="clip hook" data-start="2.5" data-duration="2.4" data-track-index="2"><span data-var-text="hook2">PRÉPARE TON CŒUR</span></div>
+
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="86" data-track-index="3" data-track-kind="captions" data-width="1080" data-height="1920"></div>
+      <div id="verses" data-composition-id="verses" data-composition-src="compositions/verses.html" data-start="0" data-duration="86" data-track-index="4" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div id="subscribe" data-composition-id="subscribe" data-composition-src="compositions/subscribe.html" data-start="77.0" data-duration="9" data-track-index="5" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+
+      <img id="logo" class="clip" src="assets/logo.png" data-start="0" data-duration="86" data-track-index="6" />
+      <div id="wm" class="clip" data-layout-allow-safe-zone data-start="0" data-duration="86" data-track-index="7"><span data-var-text="watermark">HAVRE DE FOI</span></div>
+
+      <audio id="voice" src="assets/voice.wav" data-start="0" data-duration="84.67" data-track-index="8" data-volume="1"></audio>
+      <audio id="music" src="assets/music_ducked.wav" data-start="0" data-duration="86" data-track-index="9" data-volume="1" data-fade-in="1.2" data-fade-out="3"></audio>
+      <audio id="sx1" src="assets/sfx_chime.wav" data-start="26.75" data-duration="1.6" data-track-index="10" data-volume="0.18"></audio>
+      <audio id="sx2" src="assets/sfx_chime.wav" data-start="43.55" data-duration="1.6" data-track-index="10" data-volume="0.18"></audio>
+      <audio id="sx3" src="assets/sfx_click.wav" data-start="79.4" data-duration="0.2" data-track-index="10" data-volume="0.18"></audio>
+      <audio id="sx4" src="assets/sfx_click.wav" data-start="81.0" data-duration="0.2" data-track-index="10" data-volume="0.18"></audio>
+      <audio id="sx5" src="assets/sfx_bell.wav" data-start="83.2" data-duration="1.2" data-track-index="10" data-volume="0.18"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      const slots = [["#b1", 0, 5.1, 0], ["#b2", 4.85, 2.35, 1], ["#b3", 6.95, 2.65, 0], ["#b4", 9.35, 4.85, 1], ["#b5", 13.95, 2.75, 0], ["#b6", 16.45, 3.25, 1], ["#b7", 19.45, 5.85, 0], ["#b8", 25.05, 4.85, 1], ["#b9", 29.65, 3.35, 0], ["#b10", 32.75, 3.25, 1], ["#b11", 35.75, 3.05, 0], ["#b12", 38.55, 3.25, 1], ["#b13", 41.55, 4.45, 0], ["#b14", 45.75, 3.45, 1], ["#b15", 48.95, 4.85, 0], ["#b16", 53.55, 3.65, 1], ["#b17", 56.95, 3.35, 0], ["#b18", 60.05, 3.35, 1], ["#b19", 63.15, 3.05, 0], ["#b20", 65.95, 5.55, 1], ["#b21", 71.25, 3.95, 0], ["#b22", 74.95, 11.05, 1]];
+      slots.forEach(([id,s,d,dir],i) => {
+        tl.fromTo(id, { scale: dir ? 1.14 : 1.0 }, { scale: dir ? 1.0 : 1.14 }, { duration: d, ease: "none" }, s);
+        if (i > 0) tl.fromTo(id, { opacity: 0 }, { opacity: 1, duration: 0.25, ease: "none" }, s);
+        if (i < slots.length - 1) tl.to(id, { opacity: 0, duration: 0.25, ease: "none" }, s + d - 0.25);
+      });
+      tl.fromTo("#hook1", { scale: 1.12 }, { scale: 1, duration: 0.35, ease: "power3.out" }, 0);
+      tl.to("#hook1", { opacity: 0, y: -24, duration: 0.3, ease: "power2.in" }, 2.55);
+      tl.fromTo("#hook2", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2)" }, 2.55);
+      tl.to("#hook2", { opacity: 0, y: -20, duration: 0.3, ease: "power2.in" }, 4.6);
+      tl.fromTo("#logo", { opacity: 0 }, { opacity: 0.95, duration: 0.6 }, 0.2);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

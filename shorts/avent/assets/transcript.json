@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "Dimanche,",
+    "start": 0.02,
+    "end": 1,
+    "id": "w0"
+  },
+  {
+    "text": "l'Avent",
+    "start": 1.1,
+    "end": 1.72,
+    "id": "w1"
+  },
+  {
+    "text": "commence.",
+    "start": 1.72,
+    "end": 2.92,
+    "id": "w2"
+  },
+  {
+    "text": "Quatre",
+    "start": 2.94,
+    "end": 3.41,
+    "id": "w3"
+  },
+  {
+    "text": "semaines",
+    "start": 3.41,
+    "end": 4.09,
+    "id": "w4"
+  },
+  {
+    "text": "pour",
+    "start": 4.09,
+    "end": 4.42,
+    "id": "w5"
+  },
+  {
+    "text": "préparer",
+    "start": 4.42,
+    "end": 5.06,
+    "id": "w6"
+  },
+  {
+    "text": "ton",
+    "start": 5.06,
+    "end": 5.33,
+    "id": "w7"
+  },
+  {
+    "text": "cœur.",
+    "start": 5.33,
+    "end": 5.74,
+    "id": "w8"
+  },
+  {
+    "text": "Au",
+    "start": 5.76,
+    "end": 5.85,
+    "id": "w9"
+  },
+  {
+    "text": "milieu",
+    "start": 5.86,
+    "end": 6.22,
+    "id": "w10"
+  },
+  {
+    "text": "des",
+    "start": 6.22,
+    "end": 6.4,
+    "id": "w11"
+  },
+  {
+    "text": "courses,",
+    "start": 6.4,
+    "end": 6.96,
+    "id": "w12"
+  },
+  {
+    "text": "des",
+    "start": 6.96,
+    "end": 7.17,
+    "id": "w13"
+  },
+  {
+    "text": "cadeaux",
+    "start": 7.17,
+    "end": 7.66,
+    "id": "w14"
+  },
+  {
+    "text": "et",
+    "start": 7.68,
+    "end": 7.88,
+    "id": "w15"
+  },
+  {
+    "text": "du",
+    "start": 7.88,
+    "end": 8.18,
+    "id": "w16"
+  },
+  {
+    "text": "bruit.",
+    "start": 8.18,
+    "end": 9.2,
+    "id": "w17"
+  },
+  {
+    "text": "Écoute",
+    "start": 9.22,
+    "end": 9.89,
+    "id": "w18"
+  },
+  {
+    "text": "bien,",
+    "start": 10.31,
+    "end": 10.94,
+    "id": "w19"
+  },
+  {
+    "text": "l'Avent,",
+    "start": 10.94,
+    "end": 11.58,
+    "id": "w20"
+  },
+  {
+    "text": "c'est",
+    "start": 11.58,
+    "end": 11.94,
+    "id": "w21"
+  },
+  {
+    "text": "le",
+    "start": 11.94,
+    "end": 12.08,
+    "id": "w22"
+  },
+  {
+    "text": "temps",
+    "start": 12.2,
+    "end": 12.44,
+    "id": "w23"
+  },
+  {
+    "text": "de",
+    "start": 12.44,
+    "end": 12.57,
+    "id": "w24"
+  },
+  {
+    "text": "l'attente.",
+    "start": 12.58,
+    "end": 13.52,
+    "id": "w25"
+  },
+  {
+    "text": "Pas",
+    "start": 13.54,
+    "end": 13.72,
+    "id": "w26"
+  },
+  {
+    "text": "l'attente",
+    "start": 13.72,
+    "end": 14.22,
+    "id": "w27"
+  },
+  {
+    "text": "du",
+    "start": 14.22,
+    "end": 14.63,
+    "id": "w28"
+  },
+  {
+    "text": "stress",
+    "start": 14.63,
+    "end": 14.84,
+    "id": "w29"
+  },
+  {
+    "text": "de",
+    "start": 14.84,
+    "end": 14.97,
+    "id": "w30"
+  },
+  {
+    "text": "Noël,",
+    "start": 14.97,
+    "end": 15.39,
+    "id": "w31"
+  },
+  {
+    "text": "mais",
+    "start": 15.44,
+    "end": 15.67,
+    "id": "w32"
+  },
+  {
+    "text": "l'attente",
+    "start": 15.85,
+    "end": 16.51,
+    "id": "w33"
+  },
+  {
+    "text": "de",
+    "start": 16.52,
+    "end": 16.65,
+    "id": "w34"
+  },
+  {
+    "text": "celui",
+    "start": 16.7,
+    "end": 17.08,
+    "id": "w35"
+  },
+  {
+    "text": "qui",
+    "start": 17.08,
+    "end": 17.33,
+    "id": "w36"
+  },
+  {
+    "text": "vient.",
+    "start": 17.33,
+    "end": 18.04,
+    "id": "w37"
+  },
+  {
+    "text": "La",
+    "start": 18.06,
+    "end": 18.31,
+    "id": "w38"
+  },
+  {
+    "text": "Bible",
+    "start": 18.31,
+    "end": 18.73,
+    "id": "w39"
+  },
+  {
+    "text": "dit,",
+    "start": 19.15,
+    "end": 19.43,
+    "id": "w40"
+  },
+  {
+    "text": "on",
+    "start": 19.43,
+    "end": 19.55,
+    "id": "w41"
+  },
+  {
+    "text": "l'appellera",
+    "start": 19.69,
+    "end": 20.52,
+    "id": "w42"
+  },
+  {
+    "text": "admirable,",
+    "start": 20.52,
+    "end": 21.52,
+    "id": "w43"
+  },
+  {
+    "text": "conseillé,",
+    "start": 21.52,
+    "end": 22.6,
+    "id": "w44"
+  },
+  {
+    "text": "Dieu",
+    "start": 22.6,
+    "end": 23,
+    "id": "w45"
+  },
+  {
+    "text": "puissant,",
+    "start": 23,
+    "end": 24.04,
+    "id": "w46"
+  },
+  {
+    "text": "Père",
+    "start": 24.04,
+    "end": 24.37,
+    "id": "w47"
+  },
+  {
+    "text": "éternel,",
+    "start": 24.46,
+    "end": 25.28,
+    "id": "w48"
+  },
+  {
+    "text": "prince",
+    "start": 25.28,
+    "end": 25.73,
+    "id": "w49"
+  },
+  {
+    "text": "de",
+    "start": 25.76,
+    "end": 25.86,
+    "id": "w50"
+  },
+  {
+    "text": "la",
+    "start": 25.86,
+    "end": 25.96,
+    "id": "w51"
+  },
+  {
+    "text": "paix.",
+    "start": 25.96,
+    "end": 26.88,
+    "id": "w52"
+  },
+  {
+    "text": "Ésaïe",
+    "start": 26.9,
+    "end": 27.44,
+    "id": "w53"
+  },
+  {
+    "text": "9,",
+    "start": 27.44,
+    "end": 28.02,
+    "id": "w54"
+  },
+  {
+    "text": "5.",
+    "start": 28.02,
+    "end": 28.72,
+    "id": "w55"
+  },
+  {
+    "text": "Cette",
+    "start": 28.72,
+    "end": 29.03,
+    "id": "w56"
+  },
+  {
+    "text": "année,",
+    "start": 29.88,
+    "end": 30.16,
+    "id": "w57"
+  },
+  {
+    "text": "avant",
+    "start": 30.16,
+    "end": 30.52,
+    "id": "w58"
+  },
+  {
+    "text": "de",
+    "start": 30.66,
+    "end": 30.78,
+    "id": "w59"
+  },
+  {
+    "text": "remplir",
+    "start": 30.88,
+    "end": 31.46,
+    "id": "w60"
+  },
+  {
+    "text": "ta",
+    "start": 31.53,
+    "end": 31.73,
+    "id": "w61"
+  },
+  {
+    "text": "maison,",
+    "start": 31.73,
+    "end": 32.51,
+    "id": "w62"
+  },
+  {
+    "text": "laisse",
+    "start": 32.66,
+    "end": 33.02,
+    "id": "w63"
+  },
+  {
+    "text": "Dieu",
+    "start": 33.02,
+    "end": 33.35,
+    "id": "w64"
+  },
+  {
+    "text": "remplir",
+    "start": 33.35,
+    "end": 33.92,
+    "id": "w65"
+  },
+  {
+    "text": "ton",
+    "start": 33.97,
+    "end": 34.18,
+    "id": "w66"
+  },
+  {
+    "text": "cœur.",
+    "start": 34.18,
+    "end": 34.8,
+    "id": "w67"
+  },
+  {
+    "text": "Avant",
+    "start": 34.82,
+    "end": 35.2,
+    "id": "w68"
+  },
+  {
+    "text": "de",
+    "start": 35.2,
+    "end": 35.36,
+    "id": "w69"
+  },
+  {
+    "text": "préparer",
+    "start": 35.36,
+    "end": 36,
+    "id": "w70"
+  },
+  {
+    "text": "le",
+    "start": 36,
+    "end": 36.14,
+    "id": "w71"
+  },
+  {
+    "text": "repas,",
+    "start": 36.15,
+    "end": 36.67,
+    "id": "w72"
+  },
+  {
+    "text": "prépare",
+    "start": 36.72,
+    "end": 37.28,
+    "id": "w73"
+  },
+  {
+    "text": "une",
+    "start": 37.28,
+    "end": 37.52,
+    "id": "w74"
+  },
+  {
+    "text": "place",
+    "start": 37.8,
+    "end": 37.92,
+    "id": "w75"
+  },
+  {
+    "text": "pour",
+    "start": 37.92,
+    "end": 38.23,
+    "id": "w76"
+  },
+  {
+    "text": "lui.",
+    "start": 38.23,
+    "end": 38.7,
+    "id": "w77"
+  },
+  {
+    "text": "Il",
+    "start": 38.78,
+    "end": 38.92,
+    "id": "w78"
+  },
+  {
+    "text": "est",
+    "start": 38.92,
+    "end": 39.16,
+    "id": "w79"
+  },
+  {
+    "text": "venu",
+    "start": 39.16,
+    "end": 39.45,
+    "id": "w80"
+  },
+  {
+    "text": "s'appeler",
+    "start": 39.56,
+    "end": 40.2,
+    "id": "w81"
+  },
+  {
+    "text": "Emmanuel,",
+    "start": 40.2,
+    "end": 40.91,
+    "id": "w82"
+  },
+  {
+    "text": "ce",
+    "start": 41.03,
+    "end": 41.2,
+    "id": "w83"
+  },
+  {
+    "text": "qui",
+    "start": 41.2,
+    "end": 41.5,
+    "id": "w84"
+  },
+  {
+    "text": "signifie",
+    "start": 41.76,
+    "end": 42.24,
+    "id": "w85"
+  },
+  {
+    "text": "Dieu",
+    "start": 42.24,
+    "end": 42.61,
+    "id": "w86"
+  },
+  {
+    "text": "avec",
+    "start": 42.61,
+    "end": 42.92,
+    "id": "w87"
+  },
+  {
+    "text": "nous.",
+    "start": 42.98,
+    "end": 43.68,
+    "id": "w88"
+  },
+  {
+    "text": "Matthieu",
+    "start": 43.7,
+    "end": 44.37,
+    "id": "w89"
+  },
+  {
+    "text": "1,",
+    "start": 44.37,
+    "end": 44.81,
+    "id": "w90"
+  },
+  {
+    "text": "23.",
+    "start": 44.81,
+    "end": 45.6,
+    "id": "w91"
+  },
+  {
+    "text": "Avec",
+    "start": 45.66,
+    "end": 46,
+    "id": "w92"
+  },
+  {
+    "text": "toi,",
+    "start": 46,
+    "end": 46.34,
+    "id": "w93"
+  },
+  {
+    "text": "dans",
+    "start": 46.75,
+    "end": 46.81,
+    "id": "w94"
+  },
+  {
+    "text": "ta",
+    "start": 46.81,
+    "end": 46.98,
+    "id": "w95"
+  },
+  {
+    "text": "fatigue,",
+    "start": 46.98,
+    "end": 47.78,
+    "id": "w96"
+  },
+  {
+    "text": "dans",
+    "start": 47.79,
+    "end": 47.8,
+    "id": "w97"
+  },
+  {
+    "text": "ton",
+    "start": 47.8,
+    "end": 48.43,
+    "id": "w98"
+  },
+  {
+    "text": "attente,",
+    "start": 48.64,
+    "end": 49.24,
+    "id": "w99"
+  },
+  {
+    "text": "dans",
+    "start": 49.24,
+    "end": 49.52,
+    "id": "w100"
+  },
+  {
+    "text": "ta",
+    "start": 49.64,
+    "end": 49.78,
+    "id": "w101"
+  },
+  {
+    "text": "famille.",
+    "start": 49.78,
+    "end": 50.61,
+    "id": "w102"
+  },
+  {
+    "text": "Prions",
+    "start": 50.78,
+    "end": 51.33,
+    "id": "w103"
+  },
+  {
+    "text": "ensemble.",
+    "start": 51.33,
+    "end": 52.27,
+    "id": "w104"
+  },
+  {
+    "text": "Seigneur,",
+    "start": 52.42,
+    "end": 53.68,
+    "id": "w105"
+  },
+  {
+    "text": "en",
+    "start": 53.68,
+    "end": 53.82,
+    "id": "w106"
+  },
+  {
+    "text": "ce",
+    "start": 53.82,
+    "end": 53.92,
+    "id": "w107"
+  },
+  {
+    "text": "début",
+    "start": 54.05,
+    "end": 54.27,
+    "id": "w108"
+  },
+  {
+    "text": "d'avant,",
+    "start": 54.32,
+    "end": 55,
+    "id": "w109"
+  },
+  {
+    "text": "je",
+    "start": 55,
+    "end": 55.23,
+    "id": "w110"
+  },
+  {
+    "text": "ralentis.",
+    "start": 55.34,
+    "end": 56.52,
+    "id": "w111"
+  },
+  {
+    "text": "Je",
+    "start": 56.54,
+    "end": 56.68,
+    "id": "w112"
+  },
+  {
+    "text": "dépose",
+    "start": 56.68,
+    "end": 57.16,
+    "id": "w113"
+  },
+  {
+    "text": "le",
+    "start": 57.16,
+    "end": 57.22,
+    "id": "w114"
+  },
+  {
+    "text": "bruit,",
+    "start": 57.48,
+    "end": 57.86,
+    "id": "w115"
+  },
+  {
+    "text": "la",
+    "start": 57.87,
+    "end": 58.03,
+    "id": "w116"
+  },
+  {
+    "text": "pression",
+    "start": 58.04,
+    "end": 58.66,
+    "id": "w117"
+  },
+  {
+    "text": "et",
+    "start": 58.66,
+    "end": 58.84,
+    "id": "w118"
+  },
+  {
+    "text": "les",
+    "start": 58.84,
+    "end": 59.08,
+    "id": "w119"
+  },
+  {
+    "text": "inquiétudes.",
+    "start": 59.08,
+    "end": 60.16,
+    "id": "w120"
+  },
+  {
+    "text": "Prépare",
+    "start": 60.3,
+    "end": 60.89,
+    "id": "w121"
+  },
+  {
+    "text": "mon",
+    "start": 60.89,
+    "end": 60.98,
+    "id": "w122"
+  },
+  {
+    "text": "cœur",
+    "start": 61.39,
+    "end": 61.52,
+    "id": "w123"
+  },
+  {
+    "text": "à",
+    "start": 61.52,
+    "end": 61.6,
+    "id": "w124"
+  },
+  {
+    "text": "te",
+    "start": 61.61,
+    "end": 61.79,
+    "id": "w125"
+  },
+  {
+    "text": "recevoir.",
+    "start": 61.79,
+    "end": 62.8,
+    "id": "w126"
+  },
+  {
+    "text": "Remplis",
+    "start": 62.82,
+    "end": 63.4,
+    "id": "w127"
+  },
+  {
+    "text": "ma",
+    "start": 63.4,
+    "end": 63.5,
+    "id": "w128"
+  },
+  {
+    "text": "maison",
+    "start": 63.91,
+    "end": 64.09,
+    "id": "w129"
+  },
+  {
+    "text": "de",
+    "start": 64.09,
+    "end": 64.26,
+    "id": "w130"
+  },
+  {
+    "text": "ta",
+    "start": 64.26,
+    "end": 64.31,
+    "id": "w131"
+  },
+  {
+    "text": "paix.",
+    "start": 64.45,
+    "end": 64.95,
+    "id": "w132"
+  },
+  {
+    "text": "Apprends-moi",
+    "start": 65.1,
+    "end": 65.78,
+    "id": "w133"
+  },
+  {
+    "text": "à",
+    "start": 65.78,
+    "end": 66.19,
+    "id": "w134"
+  },
+  {
+    "text": "attendre",
+    "start": 66.19,
+    "end": 66.41,
+    "id": "w135"
+  },
+  {
+    "text": "avec",
+    "start": 66.42,
+    "end": 66.59,
+    "id": "w136"
+  },
+  {
+    "text": "joie,",
+    "start": 66.73,
+    "end": 67.12,
+    "id": "w137"
+  },
+  {
+    "text": "à",
+    "start": 67.12,
+    "end": 67.21,
+    "id": "w138"
+  },
+  {
+    "text": "aimer",
+    "start": 67.21,
+    "end": 67.67,
+    "id": "w139"
+  },
+  {
+    "text": "avec",
+    "start": 67.67,
+    "end": 68.08,
+    "id": "w140"
+  },
+  {
+    "text": "patience",
+    "start": 68.08,
+    "end": 68.72,
+    "id": "w141"
+  },
+  {
+    "text": "et",
+    "start": 68.86,
+    "end": 68.94,
+    "id": "w142"
+  },
+  {
+    "text": "à",
+    "start": 68.94,
+    "end": 69.08,
+    "id": "w143"
+  },
+  {
+    "text": "te",
+    "start": 69.08,
+    "end": 69.2,
+    "id": "w144"
+  },
+  {
+    "text": "chercher",
+    "start": 69.2,
+    "end": 69.85,
+    "id": "w145"
+  },
+  {
+    "text": "chaque",
+    "start": 69.85,
+    "end": 70.05,
+    "id": "w146"
+  },
+  {
+    "text": "jour.",
+    "start": 70.34,
+    "end": 70.96,
+    "id": "w147"
+  },
+  {
+    "text": "Merci",
+    "start": 70.98,
+    "end": 71.45,
+    "id": "w148"
+  },
+  {
+    "text": "d'être",
+    "start": 71.45,
+    "end": 71.66,
+    "id": "w149"
+  },
+  {
+    "text": "Emmanuel,",
+    "start": 72.07,
+    "end": 73.02,
+    "id": "w150"
+  },
+  {
+    "text": "Dieu",
+    "start": 73.02,
+    "end": 73.11,
+    "id": "w151"
+  },
+  {
+    "text": "avec",
+    "start": 73.11,
+    "end": 73.82,
+    "id": "w152"
+  },
+  {
+    "text": "nous.",
+    "start": 73.96,
+    "end": 74.56,
+    "id": "w153"
+  },
+  {
+    "text": "Au",
+    "start": 74.58,
+    "end": 74.85,
+    "id": "w154"
+  },
+  {
+    "text": "nom",
+    "start": 74.85,
+    "end": 75.25,
+    "id": "w155"
+  },
+  {
+    "text": "de",
+    "start": 75.25,
+    "end": 75.67,
+    "id": "w156"
+  },
+  {
+    "text": "Jésus,",
+    "start": 75.67,
+    "end": 76.6,
+    "id": "w157"
+  },
+  {
+    "text": "Amen.",
+    "start": 76.6,
+    "end": 77.68,
+    "id": "w158"
+  },
+  {
+    "text": "Si",
+    "start": 77.7,
+    "end": 77.81,
+    "id": "w159"
+  },
+  {
+    "text": "cette",
+    "start": 77.81,
+    "end": 78.13,
+    "id": "w160"
+  },
+  {
+    "text": "parole",
+    "start": 78.13,
+    "end": 78.38,
+    "id": "w161"
+  },
+  {
+    "text": "t'a",
+    "start": 78.57,
+    "end": 78.69,
+    "id": "w162"
+  },
+  {
+    "text": "touché,",
+    "start": 78.79,
+    "end": 79.19,
+    "id": "w163"
+  },
+  {
+    "text": "partage-la",
+    "start": 79.33,
+    "end": 79.8,
+    "id": "w164"
+  },
+  {
+    "text": "à",
+    "start": 79.8,
+    "end": 79.82,
+    "id": "w165"
+  },
+  {
+    "text": "quelqu'un",
+    "start": 80.2,
+    "end": 80.36,
+    "id": "w166"
+  },
+  {
+    "text": "qui",
+    "start": 80.36,
+    "end": 80.53,
+    "id": "w167"
+  },
+  {
+    "text": "en",
+    "start": 80.53,
+    "end": 80.68,
+    "id": "w168"
+  },
+  {
+    "text": "a",
+    "start": 80.68,
+    "end": 80.69,
+    "id": "w169"
+  },
+  {
+    "text": "besoin.",
+    "start": 80.69,
+    "end": 81.31,
+    "id": "w170"
+  },
+  {
+    "text": "Abonne-toi",
+    "start": 81.34,
+    "end": 82.02,
+    "id": "w171"
+  },
+  {
+    "text": "et",
+    "start": 82.02,
+    "end": 82.43,
+    "id": "w172"
+  },
+  {
+    "text": "active",
+    "start": 82.43,
+    "end": 82.72,
+    "id": "w173"
+  },
+  {
+    "text": "la",
+    "start": 82.72,
+    "end": 82.84,
+    "id": "w174"
+  },
+  {
+    "text": "coche.",
+    "start": 82.97,
+    "end": 83.47,
+    "id": "w175"
+  },
+  {
+    "text": "Que",
+    "start": 83.58,
+    "end": 83.87,
+    "id": "w176"
+  },
+  {
+    "text": "Dieu",
+    "start": 83.87,
+    "end": 84.25,
+    "id": "w177"
+  },
+  {
+    "text": "te",
+    "start": 84.25,
+    "end": 84.67,
+    "id": "w178"
+  },
+  {
+    "text": "bénisse.",
+    "start": 84.67,
+    "end": 85.56,
+    "id": "w179"
+  }
+]
