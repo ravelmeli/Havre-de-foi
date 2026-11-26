@@ -1,0 +1,39 @@
+<template>
+  <style>
+    #root { position:absolute; inset:0; font-family:"Roboto",sans-serif; }
+    #sub-card { position:absolute; left:140px; top:430px; width:800px; height:150px; border-radius:26px; background:#fff;
+      box-shadow:0 14px 50px rgba(0,0,0,.35); display:flex; align-items:center; justify-content:space-between; padding:0 44px; opacity:0; }
+    .ico { width:64px; height:64px; }
+    #sub-btn { height:84px; padding:0 40px; border-radius:42px; background:#cc0000; color:#fff; font-weight:700; font-size:34px;
+      letter-spacing:.04em; display:flex; align-items:center; justify-content:center; min-width:250px; position:relative; }
+    #sub-btn .lbl { position:absolute; opacity:1; } #sub-btn .done { opacity:0; }
+    #sub-cur { position:absolute; left:760px; top:640px; width:70px; height:70px; opacity:0; }
+  </style>
+  <div id="root" data-composition-id="subscribe" data-width="1080" data-height="1920">
+    <div id="sub-card" class="clip" data-start="0" data-duration="10.2" data-track-index="1">
+      <svg id="sub-like" class="ico" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"><path d="M7 11v9H4v-9h3zm0 0l4-8c1.5 0 2.5 1 2.2 2.6L12.6 9H19a2 2 0 0 1 2 2.4l-1.4 7A2 2 0 0 1 17.6 20H7"/></svg>
+      <div id="sub-btn"><span class="lbl">S'ABONNER</span><span class="lbl done">ABONNÉ ✓</span></div>
+      <svg id="sub-bell" class="ico" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M6 17V11a6 6 0 0 1 12 0v6l2 2H4l2-2zM10 21a2 2 0 0 0 4 0"/></svg>
+    </div>
+    <svg id="sub-cur" class="clip" data-start="0" data-duration="10.2" data-track-index="2" viewBox="0 0 24 24"><path d="M5 3l14 8-6 1.5L10.5 19z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // times are local (host starts at 69.8 s)
+    tl.fromTo("#sub-card", { opacity: 0, y: -40, scale: .92 }, { opacity: 1, y: 0, scale: 1, duration: .5, ease: "back.out(1.6)" }, 0.2);
+    tl.fromTo("#sub-cur", { opacity: 0, x: 120, y: 160 }, { opacity: 1, x: -250, y: -150, duration: .9, ease: "power2.out" }, 1.0);   // to like
+    tl.to("#sub-like", { scale: 1.3, duration: .12, yoyo: true, repeat: 1 }, 2.1);
+    tl.set("#sub-like path", { fill: "#F6D58E", stroke: "#B8860B" }, 2.15);
+    tl.to("#sub-cur", { x: 0, y: -150, duration: .6, ease: "power2.inOut" }, 2.5);                                                    // to subscribe
+    tl.to("#sub-btn", { scale: .93, duration: .1, yoyo: true, repeat: 1 }, 3.3);
+    tl.set("#sub-btn", { backgroundColor: "#777" }, 3.4);
+    tl.set("#sub-btn .lbl:not(.done)", { opacity: 0 }, 3.4);
+    tl.set("#sub-btn .done", { opacity: 1 }, 3.4);
+    tl.to("#sub-cur", { x: 255, y: -150, duration: .6, ease: "power2.inOut" }, 3.9);                                                  // to bell
+    tl.to("#sub-bell", { rotation: 18, duration: .08, yoyo: true, repeat: 5, transformOrigin: "50% 8%" }, 4.6);
+    tl.set("#sub-bell path", { fill: "#F6D58E", stroke: "#B8860B" }, 4.6);
+    tl.to("#sub-cur", { opacity: 0, duration: .3 }, 5.4);
+    tl.to("#sub-card", { opacity: 0, y: -30, duration: .4, ease: "power2.in" }, 9.6);
+    window.__timelines["subscribe"] = tl;
+  </script>
+</template>
