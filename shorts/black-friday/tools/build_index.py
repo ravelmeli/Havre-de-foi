@@ -29,7 +29,7 @@ for i,(f,m,s,e,pos) in enumerate(SHOTS):
     d=round(e-st,2)
     vids.append(f'      <video id="b{i+1}" class="clip bg" src="assets/{f}.mp4" style="object-position:{pos}" muted playsinline data-start="{st:.2f}" data-media-start="{m}" data-duration="{d}" data-track-index="0"></video>')
     slots.append([f"#b{i+1}",round(st,2),d,i%2])
-sfx=[('sfx_whoosh',0.0,0.55),('sfx_pop',2.55,0.5)]+[('sfx_chime',round(s+0.05,2),0.5) for t,s,d in chips]+[('sfx_click',68.4,0.7),('sfx_click',70.0,0.7),('sfx_bell',72.2,0.55)]
+sfx=[('sfx_whoosh',0.0,0.18),('sfx_pop',2.55,0.18)]+[('sfx_chime',round(s+0.05,2),0.18) for t,s,d in chips]+[('sfx_click',68.4,0.18),('sfx_click',70.0,0.18),('sfx_bell',72.2,0.18)]
 DUR={'sfx_whoosh':0.9,'sfx_pop':0.25,'sfx_chime':1.6,'sfx_click':0.2,'sfx_bell':1.2}
 auds=[]
 for i,(f,s,v) in enumerate(sfx):
