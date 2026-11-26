@@ -1,46 +1,55 @@
-"""Build compositions/captions.html from assets/words.json (script words + Whisper timings)."""
+"""Build compositions/captions.html and compositions/verses.html from assets/words.json."""
 import json,re,html
 W=json.load(open('assets/words.json'))
 VOICE_END=73.7
+KEY={'pourvoira','besoins','richesse','gloire','envies','oiseaux','nourrit','valeur','gratitude','provision','berger','manquerai','rien','toit','pain','aiment','cloche','bénisse','soldes','manque','tout'}
+def n(t): return re.sub(r"[^a-zàâçéèêëîïôûùüÿœ]","",t.lower())
 words=[]
 for t,s,e in W:
-    s=min(s,VOICE_END-0.05);e=min(max(e,s+0.12),VOICE_END)
-    words.append([t,s,e])
+    s=min(s,VOICE_END-0.05);e=min(max(e,s+0.12),VOICE_END);words.append([t,s,e])
+def find(tok,start=0):
+    for i in range(start,len(words)):
+        if n(words[i][0])==n(tok): return i
+    raise SystemExit('missing '+tok)
+# verse ranges (word indices), spoken quotations
+v1a=find('Mon');v1b=find('Jésus-Christ.')
+v2a=find('Regardez');v2b=find('qu\'eux')
+v3a=find('Tu',find('provision'));v3b=find('rien')
+verse=set()
+for a,b in ((v1a,v1b),(v2a,v2b),(v3a,v3b)): verse|=set(range(a,b+1))
+# groups: max 4 words, break at sentence end / pause / comma / verse boundary
 groups=[];cur=[]
 def flush():
     global cur
     if cur: groups.append(cur);cur=[]
 for i,w in enumerate(words):
-    cur.append(w)
-    end_sentence=bool(re.search(r'[.?!:]$',w[0]))
+    if cur and ((i in verse)!=(cur[-1][3] in verse)): flush()
+    cur.append(w+[i])
     nxt=words[i+1] if i+1<len(words) else None
-    pause=nxt and nxt[1]-w[2]>=0.25
-    comma=w[0].endswith(',') and len(cur)>=3
-    if end_sentence or pause or comma or len(cur)>=5: flush()
+    if re.search(r'[.?!:]$',w[0]) or (nxt and nxt[1]-w[2]>=0.25) or (w[0].endswith(',') and len(cur)>=2) or len(cur)>=4: flush()
 flush()
-# merge tiny groups (<2 words) into previous when same sentence
 merged=[]
 for g in groups:
-    if merged and len(g)==1 and not re.search(r'[.?!:]$',merged[-1][-1][0]) and len(merged[-1])<5: merged[-1]+=g
+    if merged and len(g)==1 and not re.search(r'[.?!:]$',merged[-1][-1][0]) and len(merged[-1])<4 and (g[0][3] in verse)==(merged[-1][-1][3] in verse): merged[-1]+=g
     else: merged.append(g)
 groups=merged
 out=[];js=[]
 for gi,g in enumerate(groups):
     start=max(0.1,g[0][1]-0.05)
     nxt=groups[gi+1][0][1]-0.05 if gi+1<len(groups) else VOICE_END+0.3
-    end=min(g[-1][2]+0.3,nxt-0.02)
-    end=max(end,start+0.5)
-    dur=round(end-start,2)
-    ws=''.join(f'<span class="w" id="c{gi}w{wi}">{html.escape(w[0])}</span> ' for wi,w in enumerate(g)).strip()
-    out.append(f'    <div id="cg{gi}" class="clip cg" data-start="{start:.2f}" data-duration="{dur}" data-track-index="1"><p>{ws}</p></div>')
-    js.append({"id":gi,"start":round(start,2),"end":round(end,2),"w":[[round(w[1]-start,2)] for w in g]})
-html_out='''<template>
+    end=max(min(g[-1][2]+0.3,nxt-0.02),start+0.5)
+    isv=g[0][3] in verse
+    spans=''.join(f'<span class="w{" k" if n(w[0]) in KEY else ""}" id="c{gi}w{wi}">{html.escape(w[0])}</span> ' for wi,w in enumerate(g)).strip()
+    out.append(f'    <div id="cg{gi}" class="clip cg{" vs" if isv else ""}" data-start="{start:.2f}" data-duration="{round(end-start,2)}" data-track-index="1"><p>{spans}</p></div>')
+    js.append({"id":gi,"start":round(start,2),"end":round(end,2),"w":[[round(w[1]-start,2),1 if n(w[0]) in KEY else 0] for w in g]})
+cap='''<template>
   <style>
     #root { position:absolute; inset:0; font-family:"Montserrat",sans-serif; }
-    .cg { position:absolute; left:120px; width:660px; top:860px; display:flex; justify-content:center; opacity:0; }
-    .cg p { margin:0; max-width:660px; text-align:center; font-weight:800; font-size:66px; line-height:1.18; color:#fff; letter-spacing:-0.01em;
-      text-shadow:0 3px 18px rgba(0,0,0,.65),0 1px 3px rgba(0,0,0,.7); }
-    .w { display:inline-block; color:#fff; }
+    .cg { position:absolute; left:120px; width:768px; top:600px; display:flex; justify-content:center; opacity:0; }
+    .cg p { margin:0; text-align:center; font-weight:800; font-size:86px; line-height:1.14; color:#fff; letter-spacing:-0.01em;
+      text-shadow:0 3px 20px rgba(0,0,0,.7),0 1px 3px rgba(0,0,0,.75); }
+    .cg.vs p { font-family:"Playfair Display",serif; font-weight:700; font-size:80px; line-height:1.18; letter-spacing:0; }
+    .w { display:inline-block; color:#fff; } .w.k { margin:0 .16em; }
   </style>
   <div id="root" data-composition-id="captions" data-width="1080" data-height="1920">
 '''+'\n'.join(out)+'''
@@ -49,12 +58,13 @@ html_out='''<template>
     const G = '''+json.dumps(js)+''';
     const tl = gsap.timeline({ paused: true });
     G.forEach((g) => {
-      const grp = "#cg" + g.id, len = g.end - g.start;
-      tl.fromTo(grp, { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.18, ease: "power2.out" }, g.start);
+      const grp = "#cg" + g.id;
+      tl.fromTo(grp, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.16, ease: "power2.out" }, g.start);
       g.w.forEach((t, i) => {
         const w = "#c" + g.id + "w" + i;
-        tl.set(w, { color: "#fff" }, g.start);
+        tl.set(w, { color: "#fff", scale: 1 }, g.start);
         tl.to(w, { color: "#F6D58E", duration: 0.08 }, g.start + t[0]);
+        if (t[1]) tl.fromTo(w, { scale: 1 }, { scale: 1.1, duration: 0.18, ease: "back.out(2.4)" }, g.start + t[0]);
       });
       tl.to(grp, { opacity: 0, duration: 0.12, ease: "power2.in" }, g.end - 0.12);
       tl.set(grp, { opacity: 0, visibility: "hidden" }, g.end);
@@ -63,5 +73,31 @@ html_out='''<template>
   </script>
 </template>
 '''
-open('compositions/captions.html','w',encoding='utf8').write(html_out)
-print(len(groups),'groups')
+open('compositions/captions.html','w',encoding='utf8').write(cap)
+# verse reference chips, timed on the spoken reference
+p=find('Philippiens');m=find('Matthieu');ps=find('Tu',find('provision'))
+chips=[('Philippiens 4:19',words[p][1]-0.2,3.8),('Matthieu 6:26',words[m][1]-0.2,3.6),('Psaume 23:1',words[ps][1]-0.1,round(words[v3b][2]-words[ps][1]+0.6,2))]
+body=''.join(f'    <div id="v{i+1}" class="clip chip" data-start="{s:.2f}" data-duration="{d}" data-track-index="1"><span>{t}</span></div>\n' for i,(t,s,d) in enumerate(chips))
+js2=json.dumps([[f"#v{i+1}",round(s,2),d] for i,(t,s,d) in enumerate(chips)])
+ver='''<template>
+  <style>
+    #root { position:absolute; inset:0; font-family:"Playfair Display",serif; }
+    .chip { position:absolute; left:0; right:0; top:330px; display:flex; justify-content:center; opacity:0; }
+    .chip span { padding:18px 44px; border-radius:60px; background:rgba(20,14,6,.62); border:2px solid rgba(246,213,142,.9);
+      color:#F6D58E; font-size:56px; font-weight:700; letter-spacing:.02em; text-shadow:0 2px 10px rgba(0,0,0,.5); }
+  </style>
+  <div id="root" data-composition-id="verses" data-width="1080" data-height="1920">
+'''+body+'''  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    '''+js2+'''.forEach(([id,s,d]) => {
+      tl.fromTo(id, { opacity: 0, y: 24, scale: .94 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(1.7)" }, s);
+      tl.to(id, { opacity: 0, duration: 0.3, ease: "power2.in" }, s + d - 0.3);
+    });
+    window.__timelines["verses"] = tl;
+  </script>
+</template>
+'''
+open('compositions/verses.html','w',encoding='utf8').write(ver)
+json.dump({"chips":[[t,round(s,2),d] for t,s,d in chips]},open('assets/chips.json','w'))
+print(len(groups),'groups',chips)
