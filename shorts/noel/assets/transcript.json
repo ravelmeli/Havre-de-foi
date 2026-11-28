@@ -1,0 +1,1208 @@
+[
+  {
+    "text": "Noël",
+    "start": 0.01,
+    "end": 0.26,
+    "id": "w0"
+  },
+  {
+    "text": "approche.",
+    "start": 0.26,
+    "end": 0.85,
+    "id": "w1"
+  },
+  {
+    "text": "Les",
+    "start": 0.85,
+    "end": 1.31,
+    "id": "w2"
+  },
+  {
+    "text": "vitrines",
+    "start": 1.31,
+    "end": 1.77,
+    "id": "w3"
+  },
+  {
+    "text": "brillent,",
+    "start": 1.77,
+    "end": 2.36,
+    "id": "w4"
+  },
+  {
+    "text": "les",
+    "start": 2.65,
+    "end": 2.73,
+    "id": "w5"
+  },
+  {
+    "text": "listes",
+    "start": 2.73,
+    "end": 3.14,
+    "id": "w6"
+  },
+  {
+    "text": "de",
+    "start": 3.2,
+    "end": 3.32,
+    "id": "w7"
+  },
+  {
+    "text": "cadeaux",
+    "start": 3.33,
+    "end": 3.85,
+    "id": "w8"
+  },
+  {
+    "text": "s'allongent",
+    "start": 3.85,
+    "end": 4.55,
+    "id": "w9"
+  },
+  {
+    "text": "et",
+    "start": 4.75,
+    "end": 4.78,
+    "id": "w10"
+  },
+  {
+    "text": "peut-être",
+    "start": 4.78,
+    "end": 5.22,
+    "id": "w11"
+  },
+  {
+    "text": "que",
+    "start": 5.29,
+    "end": 5.42,
+    "id": "w12"
+  },
+  {
+    "text": "tu",
+    "start": 5.42,
+    "end": 5.51,
+    "id": "w13"
+  },
+  {
+    "text": "te",
+    "start": 5.51,
+    "end": 5.6,
+    "id": "w14"
+  },
+  {
+    "text": "demandes",
+    "start": 5.6,
+    "end": 5.98,
+    "id": "w15"
+  },
+  {
+    "text": "comment",
+    "start": 5.98,
+    "end": 6.13,
+    "id": "w16"
+  },
+  {
+    "text": "tout",
+    "start": 6.13,
+    "end": 6.59,
+    "id": "w17"
+  },
+  {
+    "text": "offrir.",
+    "start": 6.59,
+    "end": 7,
+    "id": "w18"
+  },
+  {
+    "text": "Arrête-toi",
+    "start": 7,
+    "end": 8.03,
+    "id": "w19"
+  },
+  {
+    "text": "un",
+    "start": 8.03,
+    "end": 8.24,
+    "id": "w20"
+  },
+  {
+    "text": "instant.",
+    "start": 8.24,
+    "end": 9.32,
+    "id": "w21"
+  },
+  {
+    "text": "Écoute",
+    "start": 9.32,
+    "end": 9.51,
+    "id": "w22"
+  },
+  {
+    "text": "bien.",
+    "start": 10.02,
+    "end": 10.34,
+    "id": "w23"
+  },
+  {
+    "text": "Le",
+    "start": 10.38,
+    "end": 10.84,
+    "id": "w24"
+  },
+  {
+    "text": "plus",
+    "start": 10.84,
+    "end": 11.02,
+    "id": "w25"
+  },
+  {
+    "text": "beau",
+    "start": 11.02,
+    "end": 11.23,
+    "id": "w26"
+  },
+  {
+    "text": "cadeau",
+    "start": 11.23,
+    "end": 11.56,
+    "id": "w27"
+  },
+  {
+    "text": "de",
+    "start": 11.57,
+    "end": 11.68,
+    "id": "w28"
+  },
+  {
+    "text": "Noël",
+    "start": 11.68,
+    "end": 11.92,
+    "id": "w29"
+  },
+  {
+    "text": "n'est",
+    "start": 11.92,
+    "end": 12.2,
+    "id": "w30"
+  },
+  {
+    "text": "pas",
+    "start": 12.23,
+    "end": 12.4,
+    "id": "w31"
+  },
+  {
+    "text": "sous",
+    "start": 12.4,
+    "end": 12.42,
+    "id": "w32"
+  },
+  {
+    "text": "le",
+    "start": 12.42,
+    "end": 12.87,
+    "id": "w33"
+  },
+  {
+    "text": "sapin.",
+    "start": 12.87,
+    "end": 13.24,
+    "id": "w34"
+  },
+  {
+    "text": "Il",
+    "start": 13.27,
+    "end": 13.37,
+    "id": "w35"
+  },
+  {
+    "text": "est",
+    "start": 13.37,
+    "end": 13.55,
+    "id": "w36"
+  },
+  {
+    "text": "dans",
+    "start": 13.55,
+    "end": 13.8,
+    "id": "w37"
+  },
+  {
+    "text": "une",
+    "start": 13.8,
+    "end": 13.91,
+    "id": "w38"
+  },
+  {
+    "text": "crèche.",
+    "start": 14.1,
+    "end": 14.64,
+    "id": "w39"
+  },
+  {
+    "text": "La",
+    "start": 14.64,
+    "end": 14.94,
+    "id": "w40"
+  },
+  {
+    "text": "Bible",
+    "start": 14.94,
+    "end": 15.69,
+    "id": "w41"
+  },
+  {
+    "text": "dit",
+    "start": 15.69,
+    "end": 15.79,
+    "id": "w42"
+  },
+  {
+    "text": "«",
+    "start": 15.79,
+    "end": 16.31,
+    "id": "w43"
+  },
+  {
+    "text": "Il",
+    "start": 16.31,
+    "end": 16.35,
+    "id": "w44"
+  },
+  {
+    "text": "vous",
+    "start": 16.41,
+    "end": 16.72,
+    "id": "w45"
+  },
+  {
+    "text": "est",
+    "start": 16.73,
+    "end": 16.94,
+    "id": "w46"
+  },
+  {
+    "text": "né",
+    "start": 16.94,
+    "end": 17.08,
+    "id": "w47"
+  },
+  {
+    "text": "aujourd'hui",
+    "start": 17.08,
+    "end": 17.89,
+    "id": "w48"
+  },
+  {
+    "text": "dans",
+    "start": 18.03,
+    "end": 18.18,
+    "id": "w49"
+  },
+  {
+    "text": "la",
+    "start": 18.18,
+    "end": 18.23,
+    "id": "w50"
+  },
+  {
+    "text": "ville",
+    "start": 18.32,
+    "end": 18.69,
+    "id": "w51"
+  },
+  {
+    "text": "de",
+    "start": 18.69,
+    "end": 18.83,
+    "id": "w52"
+  },
+  {
+    "text": "David",
+    "start": 18.83,
+    "end": 19.06,
+    "id": "w53"
+  },
+  {
+    "text": "un",
+    "start": 19.06,
+    "end": 19.37,
+    "id": "w54"
+  },
+  {
+    "text": "sauveur,",
+    "start": 19.37,
+    "end": 19.98,
+    "id": "w55"
+  },
+  {
+    "text": "qui",
+    "start": 19.98,
+    "end": 20.2,
+    "id": "w56"
+  },
+  {
+    "text": "est",
+    "start": 20.2,
+    "end": 20.42,
+    "id": "w57"
+  },
+  {
+    "text": "le",
+    "start": 20.42,
+    "end": 20.56,
+    "id": "w58"
+  },
+  {
+    "text": "Christ,",
+    "start": 20.56,
+    "end": 21.14,
+    "id": "w59"
+  },
+  {
+    "text": "le",
+    "start": 21.14,
+    "end": 21.28,
+    "id": "w60"
+  },
+  {
+    "text": "Seigneur",
+    "start": 21.42,
+    "end": 21.94,
+    "id": "w61"
+  },
+  {
+    "text": "».",
+    "start": 22.01,
+    "end": 22.85,
+    "id": "w62"
+  },
+  {
+    "text": "Luc",
+    "start": 22.85,
+    "end": 23.31,
+    "id": "w63"
+  },
+  {
+    "text": "2,",
+    "start": 23.31,
+    "end": 23.77,
+    "id": "w64"
+  },
+  {
+    "text": "11.",
+    "start": 23.77,
+    "end": 24.36,
+    "id": "w65"
+  },
+  {
+    "text": "Dieu",
+    "start": 24.65,
+    "end": 24.76,
+    "id": "w66"
+  },
+  {
+    "text": "n'a",
+    "start": 24.76,
+    "end": 24.91,
+    "id": "w67"
+  },
+  {
+    "text": "pas",
+    "start": 24.91,
+    "end": 25.08,
+    "id": "w68"
+  },
+  {
+    "text": "envoyé",
+    "start": 25.08,
+    "end": 25.39,
+    "id": "w69"
+  },
+  {
+    "text": "un",
+    "start": 25.47,
+    "end": 25.53,
+    "id": "w70"
+  },
+  {
+    "text": "objet.",
+    "start": 25.53,
+    "end": 26.08,
+    "id": "w71"
+  },
+  {
+    "text": "Il",
+    "start": 26.08,
+    "end": 26.22,
+    "id": "w72"
+  },
+  {
+    "text": "a",
+    "start": 26.27,
+    "end": 26.52,
+    "id": "w73"
+  },
+  {
+    "text": "envoyé",
+    "start": 26.74,
+    "end": 26.88,
+    "id": "w74"
+  },
+  {
+    "text": "son",
+    "start": 26.88,
+    "end": 27.17,
+    "id": "w75"
+  },
+  {
+    "text": "Fils.",
+    "start": 27.19,
+    "end": 27.92,
+    "id": "w76"
+  },
+  {
+    "text": "Car",
+    "start": 27.92,
+    "end": 28.28,
+    "id": "w77"
+  },
+  {
+    "text": "Dieu",
+    "start": 28.28,
+    "end": 28.76,
+    "id": "w78"
+  },
+  {
+    "text": "a",
+    "start": 28.76,
+    "end": 28.82,
+    "id": "w79"
+  },
+  {
+    "text": "tant",
+    "start": 28.82,
+    "end": 28.97,
+    "id": "w80"
+  },
+  {
+    "text": "aimé",
+    "start": 29.16,
+    "end": 29.4,
+    "id": "w81"
+  },
+  {
+    "text": "le",
+    "start": 29.41,
+    "end": 29.54,
+    "id": "w82"
+  },
+  {
+    "text": "monde",
+    "start": 29.54,
+    "end": 29.82,
+    "id": "w83"
+  },
+  {
+    "text": "qu'il",
+    "start": 29.89,
+    "end": 30.24,
+    "id": "w84"
+  },
+  {
+    "text": "a",
+    "start": 30.24,
+    "end": 30.25,
+    "id": "w85"
+  },
+  {
+    "text": "donné",
+    "start": 30.25,
+    "end": 30.71,
+    "id": "w86"
+  },
+  {
+    "text": "son",
+    "start": 30.71,
+    "end": 30.87,
+    "id": "w87"
+  },
+  {
+    "text": "Fils",
+    "start": 30.87,
+    "end": 31.15,
+    "id": "w88"
+  },
+  {
+    "text": "unique,",
+    "start": 31.15,
+    "end": 31.71,
+    "id": "w89"
+  },
+  {
+    "text": "afin",
+    "start": 31.71,
+    "end": 31.75,
+    "id": "w90"
+  },
+  {
+    "text": "que",
+    "start": 32.05,
+    "end": 32.2,
+    "id": "w91"
+  },
+  {
+    "text": "quiconque",
+    "start": 32.2,
+    "end": 32.79,
+    "id": "w92"
+  },
+  {
+    "text": "croit",
+    "start": 32.87,
+    "end": 33.18,
+    "id": "w93"
+  },
+  {
+    "text": "en",
+    "start": 33.18,
+    "end": 33.32,
+    "id": "w94"
+  },
+  {
+    "text": "lui",
+    "start": 33.32,
+    "end": 33.53,
+    "id": "w95"
+  },
+  {
+    "text": "ne",
+    "start": 33.53,
+    "end": 33.62,
+    "id": "w96"
+  },
+  {
+    "text": "périsse",
+    "start": 33.74,
+    "end": 34.19,
+    "id": "w97"
+  },
+  {
+    "text": "point,",
+    "start": 34.25,
+    "end": 34.66,
+    "id": "w98"
+  },
+  {
+    "text": "mais",
+    "start": 34.73,
+    "end": 34.95,
+    "id": "w99"
+  },
+  {
+    "text": "qu'il",
+    "start": 34.95,
+    "end": 35.27,
+    "id": "w100"
+  },
+  {
+    "text": "ait",
+    "start": 35.27,
+    "end": 35.55,
+    "id": "w101"
+  },
+  {
+    "text": "la",
+    "start": 35.55,
+    "end": 35.59,
+    "id": "w102"
+  },
+  {
+    "text": "vie",
+    "start": 35.59,
+    "end": 35.75,
+    "id": "w103"
+  },
+  {
+    "text": "éternelle.",
+    "start": 35.84,
+    "end": 36.58,
+    "id": "w104"
+  },
+  {
+    "text": "Jean",
+    "start": 36.89,
+    "end": 36.97,
+    "id": "w105"
+  },
+  {
+    "text": "3,",
+    "start": 36.97,
+    "end": 37.38,
+    "id": "w106"
+  },
+  {
+    "text": "16.",
+    "start": 37.44,
+    "end": 38.28,
+    "id": "w107"
+  },
+  {
+    "text": "Ce",
+    "start": 38.28,
+    "end": 38.41,
+    "id": "w108"
+  },
+  {
+    "text": "cadeau",
+    "start": 38.41,
+    "end": 38.8,
+    "id": "w109"
+  },
+  {
+    "text": "ne",
+    "start": 38.8,
+    "end": 38.99,
+    "id": "w110"
+  },
+  {
+    "text": "se",
+    "start": 38.99,
+    "end": 39.03,
+    "id": "w111"
+  },
+  {
+    "text": "mérite",
+    "start": 39.09,
+    "end": 39.41,
+    "id": "w112"
+  },
+  {
+    "text": "pas.",
+    "start": 39.44,
+    "end": 39.8,
+    "id": "w113"
+  },
+  {
+    "text": "Il",
+    "start": 39.93,
+    "end": 40.08,
+    "id": "w114"
+  },
+  {
+    "text": "ne",
+    "start": 40.09,
+    "end": 40.26,
+    "id": "w115"
+  },
+  {
+    "text": "s'achète",
+    "start": 40.26,
+    "end": 40.93,
+    "id": "w116"
+  },
+  {
+    "text": "pas.",
+    "start": 40.95,
+    "end": 41.48,
+    "id": "w117"
+  },
+  {
+    "text": "Il",
+    "start": 41.48,
+    "end": 41.59,
+    "id": "w118"
+  },
+  {
+    "text": "se",
+    "start": 41.68,
+    "end": 41.84,
+    "id": "w119"
+  },
+  {
+    "text": "reçoit.",
+    "start": 41.84,
+    "end": 42.44,
+    "id": "w120"
+  },
+  {
+    "text": "Aujourd'hui,",
+    "start": 42.73,
+    "end": 43.75,
+    "id": "w121"
+  },
+  {
+    "text": "Dieu",
+    "start": 43.75,
+    "end": 44.11,
+    "id": "w122"
+  },
+  {
+    "text": "t'offre",
+    "start": 44.11,
+    "end": 44.71,
+    "id": "w123"
+  },
+  {
+    "text": "son",
+    "start": 44.83,
+    "end": 44.98,
+    "id": "w124"
+  },
+  {
+    "text": "pardon,",
+    "start": 44.98,
+    "end": 45.84,
+    "id": "w125"
+  },
+  {
+    "text": "sa",
+    "start": 45.84,
+    "end": 46.07,
+    "id": "w126"
+  },
+  {
+    "text": "paix",
+    "start": 46.07,
+    "end": 46.53,
+    "id": "w127"
+  },
+  {
+    "text": "et",
+    "start": 46.53,
+    "end": 46.76,
+    "id": "w128"
+  },
+  {
+    "text": "son",
+    "start": 46.76,
+    "end": 47.04,
+    "id": "w129"
+  },
+  {
+    "text": "amour.",
+    "start": 47.13,
+    "end": 47.97,
+    "id": "w130"
+  },
+  {
+    "text": "Prions",
+    "start": 48.11,
+    "end": 48.43,
+    "id": "w131"
+  },
+  {
+    "text": "ensemble.",
+    "start": 48.43,
+    "end": 49.03,
+    "id": "w132"
+  },
+  {
+    "text": "Père,",
+    "start": 49.04,
+    "end": 49.48,
+    "id": "w133"
+  },
+  {
+    "text": "merci",
+    "start": 49.77,
+    "end": 50.17,
+    "id": "w134"
+  },
+  {
+    "text": "pour",
+    "start": 50.17,
+    "end": 50.51,
+    "id": "w135"
+  },
+  {
+    "text": "le",
+    "start": 50.59,
+    "end": 50.78,
+    "id": "w136"
+  },
+  {
+    "text": "plus",
+    "start": 50.78,
+    "end": 51.19,
+    "id": "w137"
+  },
+  {
+    "text": "beau",
+    "start": 51.19,
+    "end": 51.34,
+    "id": "w138"
+  },
+  {
+    "text": "des",
+    "start": 51.86,
+    "end": 51.91,
+    "id": "w139"
+  },
+  {
+    "text": "cadeaux.",
+    "start": 51.97,
+    "end": 52.96,
+    "id": "w140"
+  },
+  {
+    "text": "Jésus.",
+    "start": 52.96,
+    "end": 53.76,
+    "id": "w141"
+  },
+  {
+    "text": "Je",
+    "start": 53.76,
+    "end": 53.96,
+    "id": "w142"
+  },
+  {
+    "text": "le",
+    "start": 53.96,
+    "end": 54.09,
+    "id": "w143"
+  },
+  {
+    "text": "reçois",
+    "start": 54.23,
+    "end": 54.92,
+    "id": "w144"
+  },
+  {
+    "text": "aujourd'hui",
+    "start": 54.93,
+    "end": 55.73,
+    "id": "w145"
+  },
+  {
+    "text": "avec",
+    "start": 55.73,
+    "end": 55.78,
+    "id": "w146"
+  },
+  {
+    "text": "un",
+    "start": 55.78,
+    "end": 56.23,
+    "id": "w147"
+  },
+  {
+    "text": "cœur",
+    "start": 56.23,
+    "end": 56.43,
+    "id": "w148"
+  },
+  {
+    "text": "ouvert.",
+    "start": 56.52,
+    "end": 57.15,
+    "id": "w149"
+  },
+  {
+    "text": "Libère-moi",
+    "start": 57.15,
+    "end": 57.88,
+    "id": "w150"
+  },
+  {
+    "text": "de",
+    "start": 57.88,
+    "end": 58.03,
+    "id": "w151"
+  },
+  {
+    "text": "la",
+    "start": 58.03,
+    "end": 58.18,
+    "id": "w152"
+  },
+  {
+    "text": "pression",
+    "start": 58.18,
+    "end": 58.77,
+    "id": "w153"
+  },
+  {
+    "text": "et",
+    "start": 58.77,
+    "end": 58.91,
+    "id": "w154"
+  },
+  {
+    "text": "de",
+    "start": 58.92,
+    "end": 59.07,
+    "id": "w155"
+  },
+  {
+    "text": "la",
+    "start": 59.07,
+    "end": 59.14,
+    "id": "w156"
+  },
+  {
+    "text": "comparaison.",
+    "start": 59.23,
+    "end": 60.3,
+    "id": "w157"
+  },
+  {
+    "text": "Apprends",
+    "start": 60.38,
+    "end": 60.64,
+    "id": "w158"
+  },
+  {
+    "text": "moi",
+    "start": 60.65,
+    "end": 60.84,
+    "id": "w159"
+  },
+  {
+    "text": "à",
+    "start": 60.84,
+    "end": 60.9,
+    "id": "w160"
+  },
+  {
+    "text": "donner",
+    "start": 60.9,
+    "end": 61.27,
+    "id": "w161"
+  },
+  {
+    "text": "avec",
+    "start": 61.31,
+    "end": 61.49,
+    "id": "w162"
+  },
+  {
+    "text": "amour",
+    "start": 61.69,
+    "end": 61.89,
+    "id": "w163"
+  },
+  {
+    "text": "et",
+    "start": 61.95,
+    "end": 62.02,
+    "id": "w164"
+  },
+  {
+    "text": "à",
+    "start": 62.02,
+    "end": 62.06,
+    "id": "w165"
+  },
+  {
+    "text": "vivre",
+    "start": 62.08,
+    "end": 62.41,
+    "id": "w166"
+  },
+  {
+    "text": "ce",
+    "start": 62.41,
+    "end": 62.54,
+    "id": "w167"
+  },
+  {
+    "text": "Noël",
+    "start": 62.54,
+    "end": 62.8,
+    "id": "w168"
+  },
+  {
+    "text": "en",
+    "start": 62.8,
+    "end": 62.93,
+    "id": "w169"
+  },
+  {
+    "text": "ta",
+    "start": 62.93,
+    "end": 62.99,
+    "id": "w170"
+  },
+  {
+    "text": "présence.",
+    "start": 63.29,
+    "end": 63.88,
+    "id": "w171"
+  },
+  {
+    "text": "Au",
+    "start": 63.88,
+    "end": 64.14,
+    "id": "w172"
+  },
+  {
+    "text": "nom",
+    "start": 64.14,
+    "end": 64.53,
+    "id": "w173"
+  },
+  {
+    "text": "de",
+    "start": 64.53,
+    "end": 64.79,
+    "id": "w174"
+  },
+  {
+    "text": "Jésus.",
+    "start": 64.79,
+    "end": 65.81,
+    "id": "w175"
+  },
+  {
+    "text": "Amen.",
+    "start": 65.84,
+    "end": 66.6,
+    "id": "w176"
+  },
+  {
+    "text": "Si",
+    "start": 66.61,
+    "end": 66.72,
+    "id": "w177"
+  },
+  {
+    "text": "cette",
+    "start": 66.72,
+    "end": 67.02,
+    "id": "w178"
+  },
+  {
+    "text": "parole",
+    "start": 67.09,
+    "end": 67.42,
+    "id": "w179"
+  },
+  {
+    "text": "t'a",
+    "start": 67.42,
+    "end": 67.6,
+    "id": "w180"
+  },
+  {
+    "text": "touché,",
+    "start": 67.91,
+    "end": 68.1,
+    "id": "w181"
+  },
+  {
+    "text": "partage-la",
+    "start": 68.1,
+    "end": 68.72,
+    "id": "w182"
+  },
+  {
+    "text": "à",
+    "start": 68.72,
+    "end": 68.78,
+    "id": "w183"
+  },
+  {
+    "text": "quelqu'un",
+    "start": 68.78,
+    "end": 69.34,
+    "id": "w184"
+  },
+  {
+    "text": "que",
+    "start": 69.34,
+    "end": 69.53,
+    "id": "w185"
+  },
+  {
+    "text": "tu",
+    "start": 69.53,
+    "end": 69.65,
+    "id": "w186"
+  },
+  {
+    "text": "aimes.",
+    "start": 69.65,
+    "end": 70.14,
+    "id": "w187"
+  },
+  {
+    "text": "Abonne-toi",
+    "start": 70.15,
+    "end": 70.82,
+    "id": "w188"
+  },
+  {
+    "text": "et",
+    "start": 70.91,
+    "end": 70.96,
+    "id": "w189"
+  },
+  {
+    "text": "active",
+    "start": 70.96,
+    "end": 71.39,
+    "id": "w190"
+  },
+  {
+    "text": "la",
+    "start": 71.45,
+    "end": 71.62,
+    "id": "w191"
+  },
+  {
+    "text": "cloche.",
+    "start": 71.62,
+    "end": 72.29,
+    "id": "w192"
+  },
+  {
+    "text": "Que",
+    "start": 72.29,
+    "end": 72.75,
+    "id": "w193"
+  },
+  {
+    "text": "Dieu",
+    "start": 72.75,
+    "end": 72.86,
+    "id": "w194"
+  },
+  {
+    "text": "te",
+    "start": 72.86,
+    "end": 72.95,
+    "id": "w195"
+  },
+  {
+    "text": "bénisse,",
+    "start": 73.04,
+    "end": 73.52,
+    "id": "w196"
+  },
+  {
+    "text": "toi",
+    "start": 73.52,
+    "end": 73.69,
+    "id": "w197"
+  },
+  {
+    "text": "et",
+    "start": 73.69,
+    "end": 73.78,
+    "id": "w198"
+  },
+  {
+    "text": "ta",
+    "start": 73.78,
+    "end": 74.09,
+    "id": "w199"
+  },
+  {
+    "text": "famille.",
+    "start": 74.09,
+    "end": 74.58,
+    "id": "w200"
+  }
+]
